@@ -1,0 +1,54 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.bartz",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.10.1",
+    "applicationType": "microservice",
+    "baseName": "kafkaclient",
+    "packageName": "com.bartz",
+    "packageFolder": "com/bartz",
+    "serverPort": "8020",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MTZlNWIzMTIzMTYwYzIzYjRlOWQ2YTNkYzI0YWI4NjRmM2Y3YmE1YjQ3MjBlYTlkYjg2MmRlNDhkYmYzM2UxZGNhYzY1NjBjZWY3YWI1NTU1ZjZlYzZmOGRhZjJmMWI2YzcwYzhiZDZiNGVjYjg3YjFmZjRkMTdkNjdiNzFjYTg=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1603747479793,
+    "testFrameworks": ["cucumber"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-testcontainers",
+        "version": "1.1.0"
+      },
+      {
+        "name": "generator-jhipster-kafka",
+        "version": "0.3.0"
+      },
+      {
+        "name": "generator-jhipster-apiutils",
+        "version": "0.8.1"
+      }
+    ],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": ["en", "pl"],
+    "blueprints": [],
+    "reactive": true,
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
